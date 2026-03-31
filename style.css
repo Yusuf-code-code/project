@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: #212121;
+}
+.all{
+    
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+
+
+}
+
+.cards{
+    display: flex;
+    
+    gap: 50px;
+}
+.card{
+   width: auto;
+    height: auto;
+    min-width: 300px;
+    min-height: 350px;
+    background-color: #3a3939;
+    border-radius: 10%;
+   display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-template-rows: 1fr 1fr;  
+  align-items: center;  /* 2 rows */
+  gap: 30px;
+ overflow-wrap: break-word;
+    padding: 60px;
+    
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+sup{
+    font-size: 40px;
+}
+
+.user-input{
+   background-color: #ffffff;
+    width: 500px;
+    
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+    .input {
+  width: 450px;
+
+  padding: 14px 16px;
+  font-size: 15px;
+  border-radius: 14px;
+
+  border: none;
+  background: #ffffff;
+  color: black;
+  transition: all 0.25s ease;
+}
+
+.input:focus {
+    outline: none;
+ 
+  
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
